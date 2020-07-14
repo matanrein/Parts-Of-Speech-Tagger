@@ -29,7 +29,10 @@ def generate_tags(csv_file):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='this command evaluates the model trained by the train command')
+    parser = argparse.ArgumentParser(description='this command uses the model trained by the train command to '
+                                                 'generate tags for the given text. the given text file should have '
+                                                 'one sentence in each line and each line is  should be comma '
+                                                 'delimited)')
     parser.add_argument('text_csv_file')
     args = parser.parse_args(sys.argv[1:])
     csv_text_file = args.text_csv_file
