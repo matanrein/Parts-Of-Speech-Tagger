@@ -1,0 +1,33 @@
+# newdoc id = GUM_academic_discrimination
+# sent_id = GUM_academic_discrimination-1
+# text = The prevalence of discrimination across racial groups in contemporary America:
+# s_type=frag
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	Entity=(abstract-1
+2	prevalence	prevalence	NOUN	NN	Number=Sing	0	root	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	discrimination	discrimination	NOUN	NN	Number=Sing	2	nmod	_	Entity=(abstract-2)
+5	across	across	ADP	IN	_	7	case	_	_
+6	racial	racial	ADJ	JJ	Degree=Pos	7	amod	_	Entity=(person-3
+7	groups	group	NOUN	NNS	Number=Plur	2	nmod	_	Entity=person-3)
+8	in	in	ADP	IN	_	10	case	_	_
+9	contemporary	contemporary	ADJ	JJ	Degree=Pos	10	amod	_	Entity=(place-4
+10	America	America	PROPN	NNP	Number=Sing	2	nmod	_	Entity=abstract-1)place-4)|SpaceAfter=No
+11	:	:	PUNCT	:	_	2	punct	_	_
+
+# sent_id = GUM_academic_discrimination-2
+# text = Results from a nationally representative sample of adults
+# s_type=frag
+1	Results	result	NOUN	NNS	Number=Plur	0	root	_	Entity=(abstract-5
+2	from	from	ADP	IN	_	6	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	Entity=(person-6
+4	nationally	nationally	ADV	RB	_	5	advmod	_	_
+5	representative	representative	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	sample	sample	NOUN	NN	Number=Sing	1	nmod	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	adults	adult	NOUN	NNS	Number=Plur	6	nmod	_	Entity=(person-7)abstract-5)person-6)
+
+# sent_id = GUM_academic_discrimination-3
+# text = Introduction.
+# s_type=frag
+1	Introduction	introduction	NOUN	NN	Number=Sing	0	root	_	Entity=(abstract-8)|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
